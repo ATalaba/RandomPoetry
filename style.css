@@ -9,7 +9,7 @@ body {
 }
 
 #topnav a {
-	font-size: 40px;
+	font-size: 3em;
 	font-family: 'Wire One', sans-serif;
 	text-decoration: none;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .large h1 {
-	font-size: 100px;
+	font-size: 6em;
 	font-family: 'Sue Ellen Francisco', cursive;
 	text-align: center;
 	margin-top: 10px;
@@ -37,39 +37,40 @@ body {
 
 .content {
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 }
 
 .poem {
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 40px;
+	font-size: 2em;
 	background-color: #F0F0F0;
 	border-radius: 10px;
 	display: inline-flex;
 	width: 100%;
 	margin-bottom: 50px;
+
 }
 
 .date {
 	font-family: 'Shadows Into Light', cursive;
-	margin-left: 70px;
-	margin-top: 60px;
+	width: 15%;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	text-align: center;
 }
 
 .month {
 	margin-top: 30px;
-	font-size: 30px;
+	font-size: 1em;
 }
 
 .day {
 	margin-bottom: 50px;
-	margin-left: 15px;
-	font-size: 50px;
+	margin-top: 20px;
+	font-size: 2em;
 }
 
-.seperator {
-	margin-left: 70px;
-	margin-right: 70px;
-	width: 10px;
-	height: 100px;
-	color: green;
+.poem h4 {
+	margin-left: 20px;
+	width: 75%;
+}
